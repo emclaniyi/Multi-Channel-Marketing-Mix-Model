@@ -1,0 +1,36 @@
+# Marketing Mix Modeling Project - Phase 1
+# Python 3.9+ required
+
+# Core Data Science
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Statistical Analysis
+statsmodels>=0.14.0
+scikit-learn>=1.3.0
+
+# MMM Frameworks
+git+https://github.com/google/meridian.git
+# lightweight-mmm>=0.1.8  # Alternative option
+# pymc-marketing>=0.1.0   # Alternative option
+
+# JAX ecosystem (for Meridian)
+jax>=0.4.10
+jaxlib>=0.4.10
+numpyro>=0.12.0
+
+# Utilities
+jupyter>=1.0.0
+notebook>=6.5.0
+openpyxl>=3.1.0  # For Excel file handling
+python-dateutil>=2.8.0
+
+# Optional but recommended
+tqdm>=4.65.0  # Progress bars
+ipywidgets>=8.0.0  # Interactive widgets in Jupyter
